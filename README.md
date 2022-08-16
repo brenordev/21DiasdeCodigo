@@ -5,8 +5,6 @@
 
 <strong>Descrição:</strong> Crie um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código.
 
-<div align="center">
-<p><a href="https://github.com/brenordev/21_dias_de_codigo"> 🚀 Visualizar Desafio</a></p>
-<img src="./images/desafio01.jpg" style="width: 250px">
-</div>
+### Dia 01 - Hello World
 
+<strong>Descrição:</strong> Faça um Hello World customizado com fontes, cores e imagens.
