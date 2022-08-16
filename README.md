@@ -6,5 +6,5 @@
 <p"><span> DIA 01 - Criação do Repositório</span></p>
 <strong>Descrição: Crie um repositório para listar os projetosque serão desenvolvidos durante os 21 dias de código.</strong>
 <p><a href="https://github.com/brenordev/21_dias_de_codigo"> 🚀 Visualizar Desafio</a></p>
-<img src="./images/desafio01.jpg" style="width: 250px">
+<img src="./images/desafio01.jpg" style="width: 250px; align:center;">
 </div>
