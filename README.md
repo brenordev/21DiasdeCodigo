@@ -5,6 +5,6 @@
 
 <strong>Descrição:</strong> Crie um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código.
 
-### Dia 01 - Hello World
+### Dia 02 - Hello World
 
 <strong>Descrição:</strong> Faça um Hello World customizado com fontes, cores e imagens.
