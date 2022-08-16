@@ -7,7 +7,7 @@
 
 <strong>Descrição: Crie um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código.</strong>
 
-<div align:center>
+<div align="center">
 <p><a href="https://github.com/brenordev/21_dias_de_codigo"> 🚀 Visualizar Desafio</a></p>
 <img src="./images/desafio01.jpg" style="width: 250px">
 </div>
