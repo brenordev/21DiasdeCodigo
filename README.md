@@ -3,7 +3,7 @@
 
 
 <div display:flex>
-<p><span><strong>DIA 01</strong> - Criação do Repositório</span></p>
+#### DIA 01</strong> - Criação do Repositório
 <strong>Descrição: Crie um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código.</strong>
 
 <div align: "center">
