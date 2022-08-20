@@ -12,5 +12,5 @@
 
 ### 📅 Dia 03 - Botão animado
 
-<strong>Descrição:</strong> Crie um botão animadogit.
+<strong>Descrição:</strong> Crie um botão animado.
 
