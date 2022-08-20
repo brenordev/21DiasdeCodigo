@@ -9,3 +9,8 @@
 ### Dia 02 - Hello World
 
 <strong>Descrição:</strong> Faça um Hello World customizado com fontes, cores e imagens.
+
+### Dia 02 - Botão animado
+
+<strong>Descrição:</strong> Crie um botão animadogit.
+
