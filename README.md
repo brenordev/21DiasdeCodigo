@@ -10,7 +10,14 @@
 
 <strong>Descrição:</strong> Faça um Hello World customizado com fontes, cores e imagens.
 
-### Dia 02 - Botão animado
+### 📅 Dia 03 - Botão animado
 
-<strong>Descrição:</strong> Crie um botão animadogit.
+<strong>Descrição:</strong> Crie um botão animado.
 
+### 📅 Dia 04 - Calculadora
+
+<strong>Descrição:</strong> Crie uma calculadora.
+
+### 📅 Dia 05 - Página Erro 404
+
+<strong>Descrição:</strong> Desenvolva uma página customizada que exiba o erro 404.
