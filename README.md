@@ -21,3 +21,11 @@
 ### 📅 Dia 05 - Página Erro 404
 
 <strong>Descrição:</strong> Desenvolva uma página customizada que exiba o erro 404.
+
+### 📅 Dia 06 - Card Glassmorphism
+
+<strong>Descrição:</strong> Crie um card com o efeito Glassmorphism.
+
+### 📅 Dia 07 - Contador
+
+<strong>Descrição:</strong> Desenvolva um contador.
