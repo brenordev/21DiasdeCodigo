@@ -157,9 +157,4 @@ body{
     text-align: center;
     flex-wrap: wrap;
   }
-  .container:nth-child(-n + 1){
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
 }

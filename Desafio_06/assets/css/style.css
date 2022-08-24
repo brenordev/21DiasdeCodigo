@@ -93,6 +93,7 @@ body{
 }
 .social_midia .link_social{
   margin: 0 5px;
+  margin-top: 5px;
 }
 .link_social:hover .icon{
   filter: brightness(1.5);
