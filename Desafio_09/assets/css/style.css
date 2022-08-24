@@ -1,49 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #554994;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 body{
   height: 100vh;
   background-color: #171717;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  
+}
+.background{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/sylvain-mauroux-jYCUBAIUsk8-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(10px);
+  backdrop-filter: blur;
+  animation: blurOff 6s ease infinite;
 }
 .loader{
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  animation: loadingAnimation 1s ease infinite;  
-  display: flex;
-  margin: 0 5px;
+  max-width: 500px;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: #FFF;
+  border: 1px solid #CCC;
 }
-.div-1{
-  animation: loadingAnimation 1s ease infinite; 
-  animation-delay: 1s;
+.loader::before{
+  content: '';
+  width: 2%;
+  height: 100%;
+  display: block;
+  background-color: #2C3333;
+  animation: loadingAnimation 6s ease infinite;
+  
 }
-.div-2{
-  animation: loadingAnimation 1s ease infinite; 
-  animation-delay: 1.5s;
-}
-.div-3{
-  animation: loadingAnimation 1s ease infinite; 
-  animation-delay: 2s;
-}
-.div-4{
-  animation: loadingAnimation 1s ease infinite; 
-  animation-delay: 2.5s;
+.loading{
+  position: fixed;
+  color: #CCC;
+  animation: displayNone 8s ease;
 }
 @keyframes loadingAnimation {
   0%{
-    transform: scale(1);
-    background-color: #4C3575;
-  }
-  50%{
-    transform: scale(1.5); 
+
   }
   100%{
-    transform: scale(1);
-    background-color: #7858A6;
+    width: 100%;
+    display: inline-block;
+  }
+}
+@keyframes blurOff {
+  0%{
+  }
+  75%{
+    filter: blur(.10px);
+  }
+  100%{
+    filter: blur(0);
   }
 }
