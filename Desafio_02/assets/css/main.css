@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DynaPuff', cursive;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(1);
+  position: relative;
+
+}
+.hello_h1{
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-shadow: 5px 0px #2A0944;
+  color: #554994;
+  text-align: center;
+}
+.hello_h1::selection{
+  background-color: #554994;
+  color: #21E1E1;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #554994;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer a{
+  color: #FFF;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+.footer a:hover{
+  color: #2A0944;
+}
