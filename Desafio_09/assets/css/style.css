@@ -48,7 +48,7 @@ body{
   width: 2%;
   height: 100%;
   display: block;
-  background-color: #2C3333;
+  background-color: #319DA0;
   animation: loadingAnimation 6s ease infinite;
   
 }
