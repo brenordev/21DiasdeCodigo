@@ -16,3 +16,11 @@
 
 ### 📅 Dia 07 - Contador
 
+### 📅 Dia 08 - Toogle Tema
+
+### 📅 Dia 09 - Loading
+
+### 📅 Dia 10 - Particles.JS
+
+### 📅 Dia 11 - Layoult formulário
+
