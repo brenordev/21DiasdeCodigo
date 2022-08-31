@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+:root{
+    --primary-color: #16213E;
+    --secundary-color: #E94560;
+    --terciary-color: #E8E8E8;
+    --purple-color: #533483;
+}body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 25rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,.4);
+}
+.span_input{
+    display: flex;
+    gap: 10px;
+    color: var(--secundary-color);
+    background-color: rgba(0,0,0,.1);
+    padding: 5px;   
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    position: relative;
+    overflow: hidden;
+}
+.icon_span{
+    width: 25px;
+    height: 25px;
+    background-color: var(--secundary-color);
+    color: var(--terciary-color);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span_error_email{
+    position: absolute;
+    right: 5px;
+    margin-top: 4px;
+    font-size: .8rem;
+    font-style: italic;
+}
+.span_error_passworld{
+    position: absolute;
+    right: 5px;
+    margin-top: 4px;
+    font-size: .8rem;
+    font-style: italic;
+}
+.form input{
+    width: 100%;
+    height: 3rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0,0,0,.1);
+    color: var(--terciary-color);
+    padding-left: 5px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 2px solid transparent;
+    transition: all .5s ease;
+    box-shadow: inset 0 0 200px rgba(0,0,0,.1);
+
+}
+
+.form input::placeholder{
+    color: var(--terciary-color);
+    opacity: .08;
+    transition: opacity .1s;
+}
+.form input:focus::placeholder{
+    opacity: 0;
+}
+.form input[type=submit]{
+    border: 2px solid var(--secundary-color);
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 0;
+    margin-bottom: 0px;
+    transition:  all .5s ease;
+}
+.form input[type=submit]:hover{
+    background-color: var(--secundary-color);
+    border: 2px solid var(--terciary-color);
+
+}
+.form input:focus{
+    border-bottom: 2px solid var(--secundary-color);
+
+}
+.checkbox_passworld{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--terciary-color);
+}
+.form input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    margin-top: 21px;
+}
+.form input[type=checkbox]{
+    accent-color: var(--secundary-color);
+}
+.forgot_passworld a{
+    color: var(--terciary-color);
+}
+.forgot_passworld a:hover{
+    color: var(--secundary-color);
+}
+.other_acess{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding: 10px 0;
+    display: flex;   
+    flex-direction: column;
+}
+.other_acess span{
+    text-align: center;
+    padding-bottom: 10px;
+    color: var(--terciary-color);
+}
+.buttons_other_acess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn_access{
+    width: calc(100% /3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary-color);
+    gap: 10px;
+    padding: 8px;
+    background-color: var(--purple-color);
+    border-radius: 3px;
+}
+.btn_access:hover{
+    filter: brightness(1.1);
+}
+.google{
+    background-color: var(--terciary-color);
+}
+.facebook{
+    color: var(--terciary-color);
+    background-color: #1C3879;
+}
+.git{
+    color: var(--terciary-color);
+    background-color: #3D3C42;
+}
+.developed_by{
+    width: 100%;
+    text-align: center;
+    color: var(--secundary-color);
+    font-weight: bold;
+    margin: 10px 0;
+    opacity: .3;
+    font-size: .8rem;
+}
+@media screen and (max-width: 425px){
+    .buttons_other_acess{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn_access{
+        width: 100%;
+    }
+}
